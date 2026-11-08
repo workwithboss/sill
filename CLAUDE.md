@@ -4,7 +4,24 @@ Open-source, free app that streams individual Mac app windows to iPhone and iPad
 (designed for iPhone Duo first), with a free Mac companion. Tip jar, no
 subscription, no servers. Read `docs/BRIEF.md` before doing product-level work.
 
-Formerly winstream; the folder still carries the old name.
+Formerly winstream; on Noah's Mac the folder still carries the old name.
+
+## Without a Mac
+
+Some sessions run in a Linux cloud workspace (the Claude app, or Claude Code on
+the web) instead of on Noah's Mac. There is no Xcode, Swift toolchain,
+simulator, device or video encoder there, and swift.org can't be reached to
+install one; much of the code, and ten of the files the pure checks compile,
+import AppKit, UIKit, Network, CryptoKit or other Apple frameworks. In such a
+session:
+
+- Docs, plans, `site/` and code review are fine. Code changes are fine too, but
+  say they are unbuilt and unchecked: the build and `Tests/checks/run-all.sh`
+  happen in CI (`.github/workflows/ci.yml`, on pull requests) or on the Mac.
+- Never say a build, check or device test passed unless its output is in front
+  of you.
+- The Working rules on the encoder, TCC, signing and the SDK apply on the Mac
+  only; there is nothing to stream, record or sign here.
 
 ## Current step
 
