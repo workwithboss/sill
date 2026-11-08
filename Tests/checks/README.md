@@ -101,7 +101,7 @@ with it, in the same commit.
 
 ## Where they came from
 
-Each check was written beside the change it verifies (the plans in `docs/` and CLAUDE.md's entries
+Each check was written beside the change it verifies (the plans in `docs/` and the entries in docs/HISTORY.md
 name them: H2, H3, H13 and so on) and moved here unchanged except for paths: the compile line in a
 `main.swift`'s header comment, and the `policy`, `fence` and `clientlink` mutants scripts, which
 named absolute paths and wrote beside themselves; they now read the repository and write to
