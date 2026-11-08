@@ -16,8 +16,10 @@ import AppKit, UIKit, Network, CryptoKit or other Apple frameworks. In such a
 session:
 
 - Docs, plans, `site/` and code review are fine. Code changes are fine too, but
-  say they are unbuilt and unchecked: the build and `Tests/checks/run-all.sh`
-  happen in CI (`.github/workflows/ci.yml`, on pull requests) or on the Mac.
+  say they are unbuilt and unchecked, and leave the build and
+  `Tests/checks/run-all.sh` to the Mac. CI (`.github/workflows/ci.yml`) runs
+  them only where Actions is enabled; check that a run exists before relying
+  on it.
 - Never say a build, check or device test passed unless its output is in front
   of you.
 - The Working rules on the encoder, TCC, signing and the SDK apply on the Mac
