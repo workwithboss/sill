@@ -545,7 +545,7 @@ come from the Mac).
       the review notes' sentence, the version 0.5.1 (4) and its What's New), this section. Main
       merged in again first if another pull request landed meanwhile (PR #47, iPhone Duo, is
       expected to). CI green; merged.
-- [ ] Before the tag: Noah's device test of away from home (CLAUDE.md, PR #39's P4 to P13). A
+- [ ] Before the tag: Noah's device test of away from home (docs/HISTORY.md, PR #39's P4 to P13). A
       claim it disproves comes out of the notes, What to Test, the site, the README and the
       metadata first. The privacy policy's "Last updated" is the day the site goes out.
 - [ ] Tag the merge commit: `git tag -a v0.5.1 -m "Sill 0.5.1: away from home"` and `git push

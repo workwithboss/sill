@@ -6,7 +6,8 @@ Sill, see the [Support](https://getsill.app/support) page on
 
 Until 2026-09-25 this was the README, so where a plan in `docs/` mentions "the
 README", it means a section here. `CLAUDE.md` has the rest: the work in
-progress, the decisions already made, and every test hook.
+progress, the decisions already made, and every test hook. `docs/HISTORY.md`
+has what each merged step did and what is left to test on a device.
 
 ## Overview
 
